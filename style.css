@@ -20,6 +20,7 @@
 body {
     max-width: 100vw;
     background-color: #F2F9FE;
+    margin: 0;
 }
 
 /*Start section header */
@@ -28,13 +29,14 @@ body {
     display: flex;
     justify-content: space-between; 
     align-items: center; 
-    margin: 25px 20px 0 20px;
     padding: 25px;
+    border: solid;
 }
 
 nav .navbar {
     display: flex;
     align-items: center; 
+    border: solid;
 }
 
 .navbar a {
@@ -47,6 +49,17 @@ nav .navbar {
 .moon-sun {
     display: flex;
     align-items: center;
+    background-color: rgb(247, 253, 193);
+    width: 5rem;
+    border: solid;
+    border-radius: 15px;
+    justify-content: center;
+    
+}
+
+.moon-sun:hover {
+    background-color: rgb(91, 91, 192);
+    cursor: pointer;
 }
 
 /*End section header */
@@ -54,13 +67,26 @@ nav .navbar {
 /*Start section main*/
 
 .container-content {
-    width: 20rem;
+    width: 22rem;
     box-sizing: content-box;
     padding: 20px;
     margin: 30px 20px 0 20px;
+    border: solid;
 }
 
 .content h4 {
     font-size: 1rem;
-    font-family: 'Poppins-sub-tittle', sans-serif
+    font-family: 'Poppins-sub-tittle', sans-serif;
+    border: solid;
+}
+
+.content h1 {
+    font-size: 4rem;
+    border: solid;
+    display: flex;
+    align-items: center;
+}
+
+.content p {
+    border: solid;
 }
